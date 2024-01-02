@@ -671,3 +671,111 @@ body {
   padding: 6.99px 17.47px 13.98px 25.63px;
 }
 /* section blog */
+/* footer */
+.footer {
+  background-color: #031b34;
+}
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 185px;
+  padding-top: 175px;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.footer__text-title h1 {
+  text-align: center;
+  font-family: "Manrope";
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 75px; /* 120.968% */
+  letter-spacing: -2.48px;
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 821px;
+}
+.footer__text-btn {
+  width: 218px;
+  height: 65px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__text-btn a {
+  color: #fff;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.footer__content2 {
+  display: flex;
+  column-gap: 237px;
+}
+.footer__menu {
+  display: flex;
+  column-gap: 202px;
+}
+.footer__logo-span p {
+  color: #fff;
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 168px;
+}
+.footer__menu-title h4 {
+  color: #fff;
+  font-family: "Gilroy-Bold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 36px;
+}
+.footer__menu-link {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.footer__menu-link li a {
+  color: #fff;
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer__content3-copyright p {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: -50px;
+}
+
+/* footer */
